@@ -8,6 +8,7 @@
 
 ### 目录结构
 
+```
 ├── dist                                打包后的项目文件
 ├── config                              webpack配置目录
 │   ├── utils.js                        相关工具方法
@@ -27,6 +28,7 @@
 │           ├── index.js                
 │           └── pageTwo.html            
 └── package.json
+```
 
 ### 创建页面
 
