@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  font-size: 0;
+  height: 100%;
+}
+.teacher .cover {
+  background: url("../image/bg-ls.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 7rem;
+  background-position: center bottom;
+  text-align: center;
+}
+.parental .cover {
+  background: url("../image/bg-zz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 7rem;
+  background-position: center bottom;
+  text-align: center;
+}
+.cover .cover-img {
+  height: 2rem;
+  width: auto;
+  padding-top: .25rem; 
+}
+.cover .dl-buttons {
+  margin: .5rem 0 .25rem;
+}
+.cover .dl-button {
+  vertical-align: top;
+  display: inline-block;
+  color: #fff;
+  width: 2rem;
+  height: .5rem;
+  line-height: .5rem;
+  margin: 0 .2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.teacher .cover .dl-button {
+  background: #7228E5;
+}
+.parental .cover .dl-button {
+  background: #3d77ea;
+}
+.cover .dl-button > img {
+  width: .25rem;
+  vertical-align: middle;
+  padding-right: .15rem;
+}
+.cover .dl-button > span {
+  font-size: .16rem;
+  vertical-align: middle;
+}
+.cover .desc-txt {
+  font-size: .12rem;
+  color: rgba(255, 255, 255, 1);
+  padding: 0 .5rem;
+}
+.intro {
+  padding: 1.2rem 0 2rem;
+}
+.intro ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.intro ul li {
+  display: inline-block;
+  letter-spacing: 2px;
+  margin: 0 .5rem;
+}
+.intro ul li > img {
+  width: .85rem;
+}
+.intro ul li > p {
+  font-size: .22rem;
+  margin: .3rem 0 .2rem;
+}
+.teacher .intro ul li > p {
+  color: #7228E5;
+}
+.parental .intro ul li > p {
+  color: #3d77ea;
+}
+.intro ul li > span {
+  font-size: .14rem;
+  display: block;
+  margin-bottom: .05rem;
+  color: #505050;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    display: none;
+  }
+  .cover {
+    height: 100% !important;
+  }
+  .cover .cover-img {
+    height: 4rem;
+    width: auto;
+    padding-top: 1.65rem; 
+  }
+  .cover .dl-buttons {
+    margin: 1.25rem 0 1rem;
+  }
+  .cover .dl-button {
+    width: 5.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .cover .dl-button > span {
+    font-size: 0.45rem;
+  }
+  .cover .dl-button > img {
+    width: 0.65rem;
+  }
+  .cover .desc-txt {
+    font-size: .12rem;
+    line-height: .7rem;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 .65rem;
+  }
+}

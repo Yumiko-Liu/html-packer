@@ -1,0 +1,29 @@
+{
+  "name": "xueqianjiaoyu-dl-page",
+  "version": "1.0.0",
+  "description": "学前教育下载页面——老师版&家长版",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./config/webpack.config.dev.js",
+    "build": "webpack --config ./config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Yumiko-Liu/XueQianJiaoYu-DL-Page.git"
+  },
+  "author": "Yumiko",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "html-withimg-loader": "^0.1.16",
+    "image-webpack-loader": "^3.4.2",
+    "path": "^0.12.7",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
